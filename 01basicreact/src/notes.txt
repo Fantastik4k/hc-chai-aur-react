@@ -1,0 +1,84 @@
+react koi bhagwan nhi hy. aj hy, ho skta hy kl na ho.
+
+React roadmap
+
+1. Why to learn React?
+har cheez ka koi maqsad hota hy. mmacbook example. sirf iss wja sy nhi sekhna chahye k hype, job, trend, build ui hy. ui tu app js/jquery/css/css libraries sy bhi build kr skty hein. suppose krein k aik pic hy, aik name hy aur 2/3 link hein. yeh to sirf html/css/js sy hi ho jaye ga, is k liye to react ki zaroorut hi nhi. overkill ho jaye ga. q k at the end, browser sirf html/css/js ko hi understand krta hy aur hmein apny react code to html/css/js mein compile krna hi pry ga. 
+makes easy to manage and build complex frotends. aik button click kro to 4/5 kaam ho jayen. 
+
+2. When should I learn React?
+
+After mastering js. like "completing chai aur javascript" playlist
+most projects don't need react in initial stage.
+
+3. Why react was created.
+
+ghost message problem faced by facebook. to solve this issue, react was created.
+state is in js, and ui is in dom. ab in dono(js and dm) ko apas mein sync hona chahye tha, jo k nhi ho rhy.
+
+4. Don't learn React if
+
+you don't know how JS works or DOM works(you can see hitesh "Inner browser working video"
+
+5. React learning Process
+
+either 1. go in depth or by 2. by making projects. we will first build projects and along building project, will go in depth.
+
+6. React is a library.
+
+you can think of framework as military and library as cool dude. like agr aik cheez aesy krni hy to framework k case mein hmien wesy hi krni pry gi, jub k library hmy flxibilities deti hy.
+
+7. Topics to learn
+
+cor of React (state or UI manipulation, JSX)
+component reusability
+reusing of component (props)
+how to propogate change (hooks)
+
+8. Additional Addon to React
+
+Router (React don't have Router) we will implement it with React-Router-DOM
+state management (React don't have state management)
+----> Redux, Redux toolkit(I think more abstracted from of Redux), zustand, context API
+class based component i.e. legacy code
+BAAS Apps ---> appbase, firebase, supabase ---> social media clone, e-commerce app.
+
+9. After React
+React is not a complete solution in most case
+---> no seo, browser render of js, no routing
+frameworks
+NEXT js, Gatsby, Remix
+
+
+****Steps to create a react project*****
+
+1. create repo on github or create folder on deskto, and name it what you want to name your outer folder. like chai-aur-react
+2. create readme.md
+3. git init
+4. git add readme.md
+5. git commit -m 'start of react series'
+6. git branch -M main
+7. git remote add origin https://github.com/Fan
+8. git push -u origin main 
+
+
+jo react ki core library hy to react hy. ab aap agr web py kaam krna chahty hein to react-dom sekhien, aur agr aap mobile py kaam krna chahty hein to react-native sekhein.
+
+apko react ki new documentation react.dev py mily gi. old documentation py na chly jaye ga.
+
+inside chai-aur-react, type
+9. npx create-react-app 01basicsreact(very time consuming, hum dekhien gy k kesy hum parcel or vite k thru bhi project create kr skty hein)
+10. cd 01basicreact
+11. npm run start
+12. OPTIONAL. uper waly process of ctrl c kr k yeh run krein. npm run build. aik build wala folder bun jaye ga jis mein react js mein convert hwi ho gi
+13. remove all inside src except App.js and index.js
+
+inside chai-aur-react, type
+9. npm create vite@latest 
+10. write project name in our ex. 01vitereact
+11. using arrow keys, select React and enter.
+12. using arrow keys, select Javascript and enter.
+13. cd 01vitereact
+14. npm install or npm i
+15. npm run dev
+16. remove all inside src except App.jsx and main.jsx
