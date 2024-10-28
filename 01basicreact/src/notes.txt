@@ -67,7 +67,7 @@ jo react ki core library hy to react hy. ab aap agr web py kaam krna chahty hein
 apko react ki new documentation react.dev py mily gi. old documentation py na chly jaye ga.
 
 inside chai-aur-react, type
-9. npx create-react-app 01basicsreact(very time consuming, hum dekhien gy k kesy hum parcel or vite k thru bhi project create kr skty hein)
+9. npx create-react-app 01basicsreact               (very time consuming, hum dekhien gy k kesy hum parcel or vite k thru bhi project create kr skty hein)
 10. cd 01basicreact
 11. npm run start
 12. OPTIONAL. uper waly process of ctrl c kr k yeh run krein. npm run build. aik build wala folder bun jaye ga jis mein react js mein convert hwi ho gi
